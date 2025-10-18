@@ -1,0 +1,40 @@
+{
+  "name": "floracore-mvp",
+  "version": "1.0.0",
+  "description": "Floracore - Pet Digital Identity Platform on Avalanche",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "compile": "hardhat compile",
+    "deploy:fuji": "hardhat run scripts/deploy.js --network fuji",
+    "test": "hardhat test"
+  },
+  "dependencies": {
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "ethers": "^6.13.0",
+    "@zerodev/sdk": "^5.3.0",
+    "@zerodev/wagmi": "^4.6.7",
+    "wagmi": "^2.12.0",
+    "viem": "^2.21.0",
+    "swr": "^2.2.5",
+    "axios": "^1.7.0",
+    "lucide-react": "^0.400.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.5.0",
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^4.1.9"
+  }
+}
