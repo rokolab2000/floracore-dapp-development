@@ -1,0 +1,10 @@
+{
+  "network": "fuji",
+  "chainId": "43113",
+  "contracts": {
+    "VetRegistry": "0x29fAe6776272641B1aa22e48D9F4a40688c3441D",
+    "RecordRegistry": "0x033FB865d0EFb9c9bB285bfB711E3844bc862483",
+    "ConsentManager": "0xC9288009c3D15F0f30380e51795c8a21e203dF25",
+    "VCValidator": "0xe25519858AE388e58C15745bCC00F581f948b4d5"
+  }
+}
